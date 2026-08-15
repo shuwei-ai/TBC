@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer TV frame -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M25,35h58c3,0 5,2 5,5v30c0,3 -2,5 -5,5h-58c-3,0 -5,-2 -5,-5v-30c0,-3 2,-5 5,-5z" />
+    <!-- TV Screen area -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,39h50v22h-50z" />
+    <!-- TV Stand -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M48,75h12v3h-12z M45,78h18v2h-18z" />
+    <!-- AI Spark inside screen -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M54,42l2,6l6,2l-6,2l-2,6l-2,-6l-6,-2l6,-2z" />
+    <!-- Antennas -->
+    <path
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2"
+        android:pathData="M45,35l-10,-10 M63,35l10,-10" />
+</vector>

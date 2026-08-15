@@ -1,0 +1,9 @@
+- [x] 修改 `AppSettings` 数据类，设置 `selectedDeviceId` 默认值为 `"auto"`
+- [x] 在 `MainActivity.kt` 中添加 `ModelData` 和 `ModelListResponse` 数据类
+- [x] 修改 `TBCApp` 中的 `selectedDeviceId` 初始化逻辑，默认值为 `"auto"`
+- [x] 修改 `ChatScreen` 调用 `DeviceSelector` 的传参，增加 `serverUrl` 和 `apiKey`
+- [x] 重构 `DeviceSelector` Composable：
+    - [x] 增加参数 `serverUrl` 和 `apiKey`
+    - [x] 实现点击展开时动态加载设备列表的逻辑
+    - [x] 确保 `"auto"` 始终在列表首位
+    - [x] 移除硬编码的设备列表
